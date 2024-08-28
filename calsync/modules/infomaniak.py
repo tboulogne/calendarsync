@@ -4,7 +4,7 @@ import caldav
 # ---------------------------------------------------------------------------- #
 #                                 iCloudCalDav                                 #
 # ---------------------------------------------------------------------------- #
-class iCloudCalDav(BaseCalDav):
+class InfomaniakCalDav(BaseCalDav):
 	def connect(self):
 		self.client = caldav.DAVClient(
 			url="https://sync.infomaniak.com",
